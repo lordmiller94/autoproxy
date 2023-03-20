@@ -1,0 +1,4 @@
+O software eh disponibilizado "como estah" e não possui suporte oficial ou garantia legal
+Não me responsabilizo por possiveis danos causados por este software. Utilize-o com cautela
+
+Leia o "README.txt" para mais detalhes sobre o uso
