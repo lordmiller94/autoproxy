@@ -1,15 +1,25 @@
-================================
-CONFIGURADOR AUTOMATICO DE PROXY
-================================
-Versão 1.0 - 11:14 15/03/2023
+============================================
+CONFIGURADOR AUTOMATICO DE PROXY - AUTOPROXY
+============================================
+
+Versão 1.0 - 10:45 20/03/2023
+=============================
 
 	-Versão de lançamento
 
+DESCRIÇÃO
+=========
+Scripts de configuração automática de proxy para usuários que façam logon pela primeira vez no sistema
+
+LICENÇA
+=======
+O software é disponibilizado "como está" e não possui suporte oficial ou garantia legal
+Você pode utilizá-lo para qualquer fim e é responsável pelo uso.
+Não me responsabilizo por possiveis danos causados por este software. Utilize-o com cautela
+
 APLICAÇÃO
 =========
-
-Os scripts nesta pasta instalam e executam a configuração automática de proxy para usuários que façam logon no sistema pela primeira vez
-Pode ser usado também de modo manual em usuários que já logaram anteriormente
+Deve ser utilizado em redes onde haja necessidade de configuração manual em que o proxy não seja transparente ao usuário. Desenvolvido para o uso manual e automático via script
 
 CONFIGURAÇÃO
 ============
@@ -49,8 +59,8 @@ INSTALAÇÃO / DESINSTALAÇÃO
 	MANUAL
 	======
 
--Execute o arquivo "\Proxy\proxy.bat" para habilitar o proxy manualmente
--Execute o arquivo "\Proxy\proxy_remove.bat" para desabilitar o proxy manualmente
+-Execute o arquivo "\Autoproxy.bat" para habilitar o proxy manualmente
+-Execute o arquivo "\Autoproxy_remove.bat" para desabilitar o proxy manualmente
 
 NOTA: Esta configuração manual aplica-se apenas ao usuário atual e não deve ser executada com permissões de administrador
 
@@ -59,11 +69,11 @@ NOTA: Esta configuração manual aplica-se apenas ao usuário atual e não deve 
 	AUTOPROXY
 	=========
 
--Execute o arquivo "\Proxy\AutoProxy_install.bat" para instalar o script de configuração do proxy na inicialização dos usuários
+-Execute o arquivo "\Autoproxy\AutoProxy_install.bat" para instalar o script de configuração do proxy na inicialização dos usuários
 
 	NOTA: O script é executado somente no primeiro logon. Usuários que já logaram anteriormente deverão usar a configuração manual
 
--Para remover o "AUTOPROXY", execute o arquivo "\Proxy\AutoProxy_uninstall.bat"
+-Para remover o "AUTOPROXY", execute o arquivo "\Autoproxy\AutoProxy_uninstall.bat"
 
 	NOTA: Usuários com proxy já configurado devem fazer a remoção da configuração em seus perfis manualmente	
 
