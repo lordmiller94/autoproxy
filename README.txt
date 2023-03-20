@@ -54,7 +54,7 @@ INSTALAÇÃO / DESINSTALAÇÃO
 
 NOTA: Esta configuração manual aplica-se apenas ao usuário atual e não deve ser executada com permissões de administrador
 
--Copie os atalhos para a área de trabalho do usuário atual ou para "\Users\Public\Desktop" para colocá-los na área de trabalho de todos os usuários, caso deseje
+-Crie os atalhos para os arquivos "proxy.bat" e "proxy_remove.bat" na área de trabalho do usuário atual ou para "\Users\Public\Desktop" para colocá-los na área de trabalho de todos os usuários, caso deseje
 
 	AUTOPROXY
 	=========
